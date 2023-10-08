@@ -1,6 +1,6 @@
 //your code here
-const enteredText = document.getElementById("Evtext");
-const letterCount = document.getElementById("lettertext");
+const enteredText = document.getElementById("evaluatedText");
+const letterCount = document.getElementById("letterCount");
 
 enteredText.addEventListener("input",() => {
 	let text = enteredText.value;
